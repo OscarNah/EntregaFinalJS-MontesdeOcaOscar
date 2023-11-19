@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  /* CSS HEX */
+  --fairy-tale: #fccde2ff;
+  --night: #111111ff;
+  --white: #fffdfeff;
+  --carnation-pink: #f99dc6ff;
+  --jet: #2a2a2aff;
+  --black: #000000ff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+input,
+textarea,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+/* Globales */
+.colorBtnBlack {
+  background-color: black;
+  font-weight: bold;
+  color: white;
+}
+.colorBtnWhite {
+  background-color: white;
+  font-weight: bold;
+  color: black;
+}
+.carrusel {
+  padding: 1rem;
+}
+/* Header */
+.headerImg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: black;
+  background-image: url(../img/bannerProductos.jpg);
+  background-position: 50% 65%;
+  height: 65vh;
+}
+.header {
+  background-color: var(--fairy-tale);
+}
+.logo {
+  width: 275px;
+  max-width: 100%;
+}
+.carritoBlanco {
+  font-size: 1.5rem;
+  color: black;
+}
+.textHeader {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.bgPage li a:hover {
+  background-color: var(--carnation-pink);
+  border-radius: 75%;
+}
+.espaciado {
+  margin-right: 2rem;
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--fairy-tale);
+  margin-bottom: 0;
+  position: sticky;
+}
+.redesSociales {
+  font-size: 1.5rem;
+  color: black;
+}
+.feliz {
+  font-size: 1.5rem;
+  color: red;
+}
+/* productos */
+main {
+  background-color: var(--white);
+  margin: 1rem;
+  margin-left: 0;
+  border-radius: 2rem;
+  padding: 1rem;
+}
+.cartaCategoria {
+  padding-top: 1rem;
+}
+.categorias {
+  width: 100%;
+}
+.imgCards {
+  width: 100%;
+}
+
+/* Carrito */
+.contenedorCarrito {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.seguirComprando {
+  display: flex;
+  border: 0;
+  background-color: var(--fairy-tale);
+  padding: 1rem;
+  border-radius: 1rem;
+  font-weight: bolder;
+  gap: 1rem;
+}
+.carritoProductoImagen {
+  width: 4rem;
+  border-radius: 0.4rem;
+}
+.carritoProducto {
+  background-color: var(--fairy-tale);
+  border-radius: 1rem;
+  color: black;
+}
+.carritoProducto small {
+  color: grey;
+  font-size: 0.8rem;
+}
+.carritoProductoEliminar {
+  border: 0;
+  background-color: transparent;
+  color: black;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.carritoAcciones {
+  display: flex;
+  justify-content: space-between;
+}
+.carritoAccionesVaciar {
+  border: 0;
+  background-color: var(--fairy-tale);
+  padding: 1rem;
+  border-radius: 1rem;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.carritoAccionesDerecha {
+  display: flex;
+}
+.carritoAccionesTotal {
+  display: flex;
+  border: 0;
+  background-color: var(--fairy-tale);
+  padding: 1rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  font-weight: bolder;
+  gap: 1rem;
+}
+.carritoAccionesComprar {
+  border: 0;
+  background-color: var(--carnation-pink);
+  padding: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.desactivado{
+    display: none;
+}
