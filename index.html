@@ -7,6 +7,8 @@
     <link rel="shortcut icon" href="img/ThepowerpuffGirlsBazar.png" />
     <!-- Iconos BS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <!-- Animaciones -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- BS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
     <!-- CSS -->
@@ -56,13 +58,13 @@
             <img src="img/carousel0.jpg" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
               <h3 class="text-black">Coleccion de Anime</h3>
-              <a href="" data-aos="fade-down-right" data-aos-duration="1000"><button class="btn colorBtnBlack" type="button">Ver Colección</button></a>
+              <a href="./html/products.html" data-aos="fade-down-right" data-aos-duration="1000"><button class="btn colorBtnBlack" type="button">Ver Colección</button></a>
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="5000">
             <img src="img/carousel01.jpg" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
-              <a href="" data-aos="fade-down-right" data-aos-duration="1000"
+              <a href="./html/products.html" data-aos="fade-down-right" data-aos-duration="1000"
                 ><button class="btn colorBtnWhite" type="button"><h3>Ver todos los productos</h3></button></a
               >
             </div>
@@ -83,7 +85,69 @@
     </section>
     <!-- Termina header -->
     <!-- Inicia Main -->
-    <main></main>
+    <main>
+      <section class="container mt-3">
+        <div class="row centrar">
+          <div class="col-md-12 col-lg-7" data-aos="flip-left" data-aos-duration="1000">
+            <h2 id="sobreNosotros" class="featurette-heading fw-normal lh-1">¿Quiénes Somos ? <span class="text-body-secondary"> THE POWERPUFF GIRLS BAZAR... </span></h2>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, voluptates iusto officia libero veritatis numquam sint sed est quam sapiente, quos, at sunt! Deleniti saepe ea quam iure! Blanditiis pariatur fugit eligendi voluptatibus atque provident, vel distinctio neque possimus praesentium voluptatum, eos dignissimos hic nostrum asperiores nulla iste? Ex, magnam facilis, molestiae fugit voluptatibus sint nisi accusamus est repudiandae impedit, iusto repellendus? Ex maxime sint dolorem distinctio exercitationem ducimus totam id rerum. Obcaecati nemo, omnis sit ipsum incidunt tenetur in facere reiciendis repudiandae delectus corporis odio adipisci ipsa iusto laborum tempore animi corrupti fugiat quaerat nihil commodi est nulla voluptas!
+            </p>
+          </div>
+          <div class="col-md-12 col-lg-5" data-aos="flip-left" data-aos-duration="1000">
+            <img class="brands img-fluid" src="img/quienesSomos.gif" alt="" />
+          </div>
+        </div>
+        <hr class="featurette-divider" />
+        <div class="row centrar">
+          <div class="col-md-12 col-lg-4 order-md-1 order-lg-2" data-aos="flip-right" data-aos-duration="1000">
+            <h2 class="featurette-heading fw-normal lh-1">Contamos con los mejores, <span class="text-body-secondary"> estilos de ropa... </span></h2>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis eligendi odio quisquam nemo, corporis ea dignissimos vitae, officia quas similique at ut, eveniet est optio a veniam corrupti minus suscipit et? Exercitationem laboriosam tempore odit aperiam dolores commodi non suscipit quidem molestiae obcaecati debitis voluptates aliquid molestias eligendi officiis recusandae qui, nesciunt iste illum voluptatibus in sequi! Non reiciendis laudantium quae eum maiores, molestiae quidem a ex impedit? Dolores necessitatibus quae deleniti ullam, consectetur culpa, explicabo blanditiis, sint labore ipsa quos id! Vitae voluptatibus nemo nisi, nobis accusamus architecto pariatur!</p>
+          </div>
+          <div class="col-md-12 col-lg-8 order-md-2 order-lg-1" data-aos="flip-right" data-aos-duration="1000">
+            <img class="brands img-fluid" src="img/estilos.jpeg" alt="" />
+          </div>
+        </div>
+        <hr class="featurette-divider"/>
+      </section>
+      <section class="mb-5 pb-5">
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-left" data-aos-duration="500">
+            <ul class="estiloListas">
+              <li class="text-center"><i class="bi bi-credit-card iconosBox" alt="Icono Pago con tarjeta"></i></li>
+              <li>
+                <h2 class="fw-normal text-center">Elige cómo pagar.</h2>
+              </li>
+              <li>
+                <p class="text-center">Con Mercado Pago, paga con tarjeta, débito o efectivo. También puedes pagar en hasta 12 mensualidades sin tarjeta con Mercado Crédito.</p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4" data-aos="fade-right" data-aos-duration="500">
+            <ul class="estiloListas">
+              <li class="text-center"><i class="bi bi-box-seam iconosBox" alt="Icono de caja de envios"></i></li>
+              <li>
+                <h2 class="fw-normal text-center">Envío gratis desde $ 2,999 MXM.</h2>
+              </li>
+              <li>
+                <p class="text-center">Envio gratis a cualquer parte de la republica Mexicana.</p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4" data-aos="fade-left" data-aos-duration="500">
+            <ul class="estiloListas">
+              <li class="text-center"><i class="bi bi-shield-fill-check iconosBox" alt="Icono de escudo con paloma dentro"></i></li>
+              <li>
+                <h2 class="fw-normal text-center">Protegemos la privacidad.</h2>
+              </li>
+              <li>
+                <p class="text-center">De los datos que nos brindas, tomando las medidas necesarias para garantizar la seguridad.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
     <!-- Termina Main -->
     <!-- Inicia Footer -->
     <footer>
@@ -108,6 +172,11 @@
       </div>
     </footer>
     <!-- Termina Footer -->
+    <!-- Animaciones -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <!-- JS BS  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <!-- JS -->

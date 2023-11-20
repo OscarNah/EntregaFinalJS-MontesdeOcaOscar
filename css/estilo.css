@@ -48,6 +48,11 @@ a {
   font-weight: bold;
   color: black;
 }
+.colorBtn {
+  background-color: var(--carnation-pink);
+  font-weight: bold;
+  color: white;
+}
 .carrusel {
   padding: 1rem;
 }
@@ -97,10 +102,7 @@ a {
   font-size: 1.5rem;
   color: black;
 }
-.feliz {
-  font-size: 1.5rem;
-  color: red;
-}
+
 /* productos */
 main {
   background-color: var(--white);
@@ -143,6 +145,12 @@ main {
   border-radius: 1rem;
   color: black;
 }
+.textoCarrito {
+  color: var(--carnation-pink);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: smaller;
+}
 .carritoProducto small {
   color: grey;
   font-size: 0.8rem;
@@ -180,7 +188,7 @@ main {
   gap: 1rem;
 }
 .carritoAccionesComprar {
-  border: 0;
+  border: none;
   background-color: var(--carnation-pink);
   padding: 1rem;
   border-top-right-radius: 1rem;
@@ -188,6 +196,47 @@ main {
   font-weight: bolder;
   cursor: pointer;
 }
-.desactivado{
-    display: none;
+.iconos {
+  font-size: 30px;
+  border-color: black;
+  border-radius: 1rem;
+  background: transparent;
+}
+.carritoCantidad {
+  text-align: center;
+  background: transparent;
+  border-color: transparent;
+  font-size: 18px;
+  background-color: transparent;
+  display: inline-block;
+  width: 35px;
+  padding: 5px;
+  text-align: center;
+}
+.desactivado {
+  display: none;
+}
+/* Contacto */
+.headerContacto {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: black;
+  background-image: url(../img/bannercontacto.jpg);
+  background-position: 15% 30%;
+  height: 25vh;
+}
+.contactoFormulario {
+  background-color: #eceff1;
+  border-radius: 1%;
+}
+.lineaDivisora {
+  border-bottom: 2px solid black;
+}
+/* index */
+.iconosBox{
+  font-size: 5rem;
+   color: black;
 }

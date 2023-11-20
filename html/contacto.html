@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Powerpuff Girls Bazar</title>
+    <link rel="shortcut icon" href="../img/ThepowerpuffGirlsBazar.png" />
+    <!-- Iconos BS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <!-- BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+    <!-- Toastify JS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/estilo.css" />
+  </head>
+  <body>
+    <!-- Inicia header -->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="../index.html">
+          <img class="logo img-fluid" src="../img/ThepowerpuffGirlsBazar.png" alt="The Powerpuff Girls Bazar" />
+        </a>
+        <button class="navbar-toggler" type="button" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto textHeader bgPage">
+            <li class="nav-item">
+              <a class="nav-link active link-light espaciado text-black" aria-current="page" href="../index.html"> Inicio </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light espaciado text-black" href="products.html"> Productos </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-light espaciado text-black" href="contacto.html"> Contacto </a>
+            </li>
+            <li class="nav-item espaciado text-black">
+              <a class="nav-link carritoBlanco" href="carrito.html">
+                <i class="bi bi-cart"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- Termina header -->
+    <main>
+      <section class="bgContacto">
+        <div class="py-5 headerContacto mb-5">
+          <h2 class="text-black text-center">
+            Contacto <br />
+            No dudes en contactarnos, <br />
+            estamos para servirte.
+          </h2>
+        </div>
+        <section class="container-fluid mt-3 mb-3">
+          <div class="contactoFormulario">
+            <div class="row">
+              <div class="col-sm-12 col-lg-6" data-aos="flip-left" data-aos-duration="1500">
+                <h4 class="lineaDivisora mt-3"></h4>
+                <div class="container col-xl-10 col-xxl-8">
+                  <div class="row align-items-center g-lg-5">
+                    <div class="col-lg- text-center text-lg-start">
+                      <h3 class="display-6 fw-bold lh-1 text-body-emphasis text-center">Contactanos</h3>
+                      <p class="col-lg-10 fs-4 text-center">Llena el formulario y agrega en comentario la solicitud que tenga ya sea de algun componente o algun dekstops y nos pondremos en contacto contigo lo antes posible</p>
+                    </div>
+                    <div class="mx-auto m-0 mb-3">
+                      <form class="p-2 p-md-3 border rounded-3 bg-body-tertiary">
+                        <div class="form-floating mb-1">
+                          <input type="Nombre" class="form-control" id="floatingInput" placeholder="Hombre" />
+                          <label for="floatingInput">Nombre</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                          <input type="Apellido" class="form-control" id="floatingInput" placeholder="Appellido" />
+                          <label for="floatingInput">Apellido</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
+                          <label for="floatingInput">Correo electronico </label>
+                        </div>
+                        <div class="form-floating mb-3">
+                          <input type="comentario" class="form-control" id="floatingInput" placeholder="comentario" />
+                          <label for="floatingInput">Comentario</label>
+                        </div>
+                        <div class="checkbox mb-3">
+                          <label>
+                            <input type="checkbox" value="Subscribe" />
+                            Suscribirse al boletin
+                          </label>
+                        </div>
+                        <button class="w-100 btn btn-lg colorBtn" type="submit">Enviar</button>
+                        <hr class="my-4" />
+                        <small class="text-body-secondary">Al presionar enviar, estas aceptando los terminos.</small>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-lg-6" data-aos="flip-right" data-aos-duration="1500">
+                <h4 class="lineaDivisora mt-3"></h4>
+                <div class="container col-xl-10 col-xxl-8">
+                  <div class="row align-items-center g-lg-5">
+                    <div class="col-lg- text-center text-lg-start">
+                      <h3 class="display-6 fw-bold lh-1 text-body-emphasis text-center">Visita nuestra tienda fisica</h3>
+                      <p class="col-lg-10 fs-4 text-center">Ubicada en Lindavista Norte, Ciudad de México donde te daremos una atención mas personalizada y aclararemos todas tus dudas, ¡te esperamos!</p>
+                    </div>
+                    <section class="d-flex justify-content-center mx-auto m-0 mb-5">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d940.2692522146932!2d-99.12589537144342!3d19.495322363075235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f9bd0951f283%3A0xb342d52694c43901!2sSierravista%20221-229%2C%20Lindavista%20Nte.%2C%20Gustavo%20A.%20Madero%2C%2007300%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1690606539258!5m2!1ses-419!2smx" width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+    <!-- Termina main -->
+
+    <!-- Inicia Footer -->
+    <footer>
+      <div class="footer container-fluid">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+          <div class="col-md-4 d-flex align-items-center">
+            <span class="text-black">&copy; 2023 The Powerpuff Girls Bazar Company, Inc</span>
+          </div>
+
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+              <a class="redesSociales" href="https://facebook.com"><i class="bi bi-facebook"></i></a>
+            </li>
+            <li class="ms-3">
+              <a class="redesSociales" href="https://instagram.com"><i class="bi bi-instagram"></i></a>
+            </li>
+            <li class="ms-3">
+              <a class="redesSociales" href="https://twitter.com"><i class="bi bi-twitter"></i></a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </footer>
+    <!-- Termina Footer -->
+    <!-- Script Toastify -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <!-- JS BS  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- JS -->
+    <script src="../js/main.js"></script>
+  </body>
+</html>
